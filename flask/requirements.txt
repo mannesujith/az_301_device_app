@@ -1,0 +1,8 @@
+flask
+flask-restful
+Flask-API
+python-dotenv
+azure-iot-device
+azure-iot-hub
+flask_restful_swagger_2
+flask-cors

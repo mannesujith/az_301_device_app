@@ -1,0 +1,163 @@
+INFO 2023-02-26 00:56:20,370 {function name : fetch_device Line no : 39} Calling fetch device function with device_id:1234
+ERROR 2023-02-26 00:56:20,934 {function name : fetch_device Line no : 55} Device not found
+INFO 2023-02-27 11:22:40,644 {function name : create_device Line no : 17} device created
+INFO 2023-02-27 11:40:15,159 {function name : fetch_device Line no : 39} Calling fetch device function with device_id:1234
+ERROR 2023-02-27 11:40:25,156 {function name : func_wrapper Line no : 22} Device not found
+INFO 2023-02-27 13:14:21,932 {function name : fetch_device Line no : 22} Calling fetch device function with device_id:1234
+ERROR 2023-02-27 13:14:22,659 {function name : func_wrapper Line no : 22} Device not found
+INFO 2023-02-27 13:14:45,475 {function name : create_device Line no : 13} device created
+INFO 2023-02-27 13:15:39,139 {function name : fetch_device Line no : 22} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 13:15:42,359 {function name : fetch_device Line no : 32} Device Fetched Successfully:{'additional_properties': {}, 'device_id': 'azdevice1', 'generation_id': '638130806848835406', 'etag': 'NDY4OTQ2NzMz', 'connection_state': 'Disconnected', 'status': 'enabled', 'status_reason': None, 'connection_state_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x000001B7CE752D60>), 'status_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x000001B7CE752D60>), 'last_activity_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x000001B7CE752D60>), 'cloud_to_device_message_count': 0, 'authentication': <azure.iot.hub.protocol.models.authentication_mechanism_py3.AuthenticationMechanism object at 0x000001B7CE898E50>, 'capabilities': <azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities object at 0x000001B7CE898CD0>, 'device_scope': None, 'parent_scopes': None}
+INFO 2023-02-27 13:22:45,120 {function name : fetch_device Line no : 22} Calling fetch device function with device_id:1234
+ERROR 2023-02-27 13:22:45,592 {function name : func_wrapper Line no : 21} Device not found
+ERROR 2023-02-27 13:23:08,840 {function name : func_wrapper Line no : 18} CONFLICT! device already present
+INFO 2023-02-27 13:38:44,820 {function name : fetch_device Line no : 22} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 13:38:47,865 {function name : fetch_device Line no : 32} Device Fetched Successfully:{'additional_properties': {}, 'device_id': 'azdevice1', 'generation_id': '638130806848835406', 'etag': 'NDY4OTQ2NzMz', 'connection_state': 'Disconnected', 'status': 'enabled', 'status_reason': None, 'connection_state_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x00000210F7262D60>), 'status_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x00000210F7262D60>), 'last_activity_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x00000210F7262D60>), 'cloud_to_device_message_count': 0, 'authentication': <azure.iot.hub.protocol.models.authentication_mechanism_py3.AuthenticationMechanism object at 0x00000210F73B3970>, 'capabilities': <azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities object at 0x00000210F73B3BE0>, 'device_scope': None, 'parent_scopes': None}
+ERROR 2023-02-27 13:39:31,700 {function name : func_wrapper Line no : 27} Error at 'Twin' object is not subscriptable
+ERROR 2023-02-27 13:43:41,793 {function name : func_wrapper Line no : 27} Error at 'Twin' object is not subscriptable
+ERROR 2023-02-27 13:44:20,459 {function name : func_wrapper Line no : 27} Error at 'Twin' object is not subscriptable
+ERROR 2023-02-27 13:47:52,385 {function name : func_wrapper Line no : 27} Error at 'Twin' object is not subscriptable
+ERROR 2023-02-27 13:48:32,128 {function name : func_wrapper Line no : 27} Error at 'Twin' object is not subscriptable
+INFO 2023-02-27 13:51:23,561 {function name : fetch_device Line no : 22} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 13:51:25,134 {function name : fetch_device Line no : 32} Device Fetched Successfully:{'additional_properties': {}, 'device_id': 'azdevice1', 'generation_id': '638130806848835406', 'etag': 'NDY4OTQ2NzMz', 'connection_state': 'Disconnected', 'status': 'enabled', 'status_reason': None, 'connection_state_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x000001BA0CB1F2E0>), 'status_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x000001BA0CB1F2E0>), 'last_activity_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x000001BA0CB1F2E0>), 'cloud_to_device_message_count': 0, 'authentication': <azure.iot.hub.protocol.models.authentication_mechanism_py3.AuthenticationMechanism object at 0x000001BA0CD5BAF0>, 'capabilities': <azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities object at 0x000001BA0CD5B9A0>, 'device_scope': None, 'parent_scopes': None}
+INFO 2023-02-27 13:53:33,553 {function name : fetch_device Line no : 22} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 13:53:34,026 {function name : fetch_device Line no : 32} Device Fetched Successfully:{'additional_properties': {}, 'device_id': 'azdevice1', 'generation_id': '638130806848835406', 'etag': 'NDY4OTQ2NzMz', 'connection_state': 'Disconnected', 'status': 'enabled', 'status_reason': None, 'connection_state_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x0000021036D802E0>), 'status_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x0000021036D802E0>), 'last_activity_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x0000021036D802E0>), 'cloud_to_device_message_count': 0, 'authentication': <azure.iot.hub.protocol.models.authentication_mechanism_py3.AuthenticationMechanism object at 0x0000021036FAA130>, 'capabilities': <azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities object at 0x0000021036FAA370>, 'device_scope': None, 'parent_scopes': None}
+INFO 2023-02-27 14:37:10,328 {function name : fetch_device Line no : 22} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 14:37:10,774 {function name : fetch_device Line no : 32} Device Fetched Successfully:{'additional_properties': {}, 'device_id': 'azdevice1', 'generation_id': '638130806848835406', 'etag': 'NDY4OTQ2NzMz', 'connection_state': 'Disconnected', 'status': 'enabled', 'status_reason': None, 'connection_state_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x00000279BE3FE3D0>), 'status_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x00000279BE3FE3D0>), 'last_activity_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x00000279BE3FE3D0>), 'cloud_to_device_message_count': 0, 'authentication': <azure.iot.hub.protocol.models.authentication_mechanism_py3.AuthenticationMechanism object at 0x00000279BE632970>, 'capabilities': <azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities object at 0x00000279BE632040>, 'device_scope': None, 'parent_scopes': None}
+INFO 2023-02-27 14:38:13,009 {function name : fetch_device Line no : 22} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 14:38:15,704 {function name : fetch_device Line no : 32} Device Fetched Successfully:{'additional_properties': {}, 'device_id': 'azdevice1', 'generation_id': '638130806848835406', 'etag': 'NDY4OTQ2NzMz', 'connection_state': 'Disconnected', 'status': 'enabled', 'status_reason': None, 'connection_state_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x00000279BE3FE3D0>), 'status_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x00000279BE3FE3D0>), 'last_activity_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x00000279BE3FE3D0>), 'cloud_to_device_message_count': 0, 'authentication': <azure.iot.hub.protocol.models.authentication_mechanism_py3.AuthenticationMechanism object at 0x00000279BE540B20>, 'capabilities': <azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities object at 0x00000279BE540160>, 'device_scope': None, 'parent_scopes': None}
+ERROR 2023-02-27 15:50:39,477 {function name : func_wrapper Line no : 27} Error at 'Device' object is not subscriptable
+ERROR 2023-02-27 15:52:51,332 {function name : func_wrapper Line no : 27} Error at 'Device' object has no attribute 'connectionState'
+ERROR 2023-02-27 15:54:27,249 {function name : func_wrapper Line no : 27} Error at 'str' object has no attribute 'assigned_hub'
+ERROR 2023-02-27 15:59:59,953 {function name : func_wrapper Line no : 27} Error at 'str' object has no attribute 'assigned_hub'
+ERROR 2023-02-27 16:00:23,442 {function name : func_wrapper Line no : 27} Error at 'IoTHubRegistryManager' object has no attribute 'get_properties'
+ERROR 2023-02-27 16:11:55,344 {function name : func_wrapper Line no : 27} Error at 'IoTHubRegistryManager' object has no attribute 'get_properties'
+INFO 2023-02-27 16:17:58,642 {function name : fetch_device Line no : 23} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 16:17:59,083 {function name : fetch_device Line no : 33} Device Fetched Successfully:{'additional_properties': {}, 'device_id': 'azdevice1', 'generation_id': '638130806848835406', 'etag': 'NDY4OTQ2NzMz', 'connection_state': 'Disconnected', 'status': 'enabled', 'status_reason': None, 'connection_state_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x0000023BEBE22790>), 'status_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x0000023BEBE22790>), 'last_activity_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x0000023BEBE22790>), 'cloud_to_device_message_count': 0, 'authentication': <azure.iot.hub.protocol.models.authentication_mechanism_py3.AuthenticationMechanism object at 0x0000023BEC0C3AF0>, 'capabilities': <azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities object at 0x0000023BEC0C3040>, 'device_scope': None, 'parent_scopes': None}
+INFO 2023-02-27 16:19:11,977 {function name : fetch_device Line no : 23} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 16:21:37,290 {function name : fetch_device Line no : 23} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 16:21:37,781 {function name : fetch_device Line no : 33} Device Fetched Successfully:{'additional_properties': {}, 'device_id': 'azdevice1', 'generation_id': '638130806848835406', 'etag': 'NDY4OTQ2NzMz', 'connection_state': 'Disconnected', 'status': 'enabled', 'status_reason': None, 'connection_state_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x000001F3D3AC0850>), 'status_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x000001F3D3AC0850>), 'last_activity_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x000001F3D3AC0850>), 'cloud_to_device_message_count': 0, 'authentication': <azure.iot.hub.protocol.models.authentication_mechanism_py3.AuthenticationMechanism object at 0x000001F3D3CD10D0>, 'capabilities': <azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities object at 0x000001F3D3CD1280>, 'device_scope': None, 'parent_scopes': None}
+INFO 2023-02-27 18:00:20,200 {function name : send_message Line no : 48} Send Message from device called
+INFO 2023-02-27 18:00:48,713 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:00:26": 39
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:01:35,776 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:01:35": 63
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:01:55,882 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:01:55": 31
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:02:16,012 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:02:15": 87
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:02:36,143 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:02:36": 76
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:03:03,951 {function name : fetch_device Line no : 21} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 18:03:04,492 {function name : fetch_device Line no : 31} Device Fetched Successfully:{'additional_properties': {}, 'device_id': 'azdevice1', 'generation_id': '638130806848835406', 'etag': 'NDY4OTQ2NzMz', 'connection_state': 'Disconnected', 'status': 'enabled', 'status_reason': None, 'connection_state_updated_time': datetime.datetime(2023, 2, 27, 12, 33, 4, 468590, tzinfo=<isodate.tzinfo.Utc object at 0x0000017316442640>), 'status_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x0000017316442640>), 'last_activity_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x0000017316442640>), 'cloud_to_device_message_count': 0, 'authentication': <azure.iot.hub.protocol.models.authentication_mechanism_py3.AuthenticationMechanism object at 0x000001731783C430>, 'capabilities': <azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities object at 0x000001731783C5B0>, 'device_scope': None, 'parent_scopes': None}
+INFO 2023-02-27 18:31:37,409 {function name : send_message Line no : 48} Send Message from device called
+INFO 2023-02-27 18:31:41,599 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:31:37": 64
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:32:01,757 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:32:01": 30
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:32:21,921 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:32:21": 59
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:32:42,081 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:32:41": 54
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:33:02,244 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:33:02": 50
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:33:22,267 {function name : fetch_device Line no : 21} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 18:33:22,779 {function name : fetch_device Line no : 31} Device Fetched Successfully:{'additional_properties': {}, 'device_id': 'azdevice1', 'generation_id': '638130806848835406', 'etag': 'NDY4OTQ2NzMz', 'connection_state': 'Disconnected', 'status': 'enabled', 'status_reason': None, 'connection_state_updated_time': datetime.datetime(2023, 2, 27, 13, 3, 22, 808669, tzinfo=<isodate.tzinfo.Utc object at 0x0000017316442640>), 'status_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x0000017316442640>), 'last_activity_time': datetime.datetime(2023, 2, 27, 13, 1, 41, 316899, tzinfo=<isodate.tzinfo.Utc object at 0x0000017316442640>), 'cloud_to_device_message_count': 0, 'authentication': <azure.iot.hub.protocol.models.authentication_mechanism_py3.AuthenticationMechanism object at 0x000001731783C220>, 'capabilities': <azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities object at 0x000001731783C7C0>, 'device_scope': None, 'parent_scopes': None}
+INFO 2023-02-27 18:57:55,534 {function name : send_message Line no : 48} Send Message from device called
+INFO 2023-02-27 18:57:59,685 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:57:55": 87
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:58:19,823 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:58:19": 68
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:58:40,102 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:58:39": 78
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:59:00,216 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:59:00": 46
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:59:20,328 {function name : send_message Line no : 55} Message with payload {
+    "temperature_@_2023-02-27-18:59:20": 84
+} sent Successfully to IoT Hub.
+INFO 2023-02-27 18:59:40,354 {function name : fetch_device Line no : 21} Calling fetch device function with device_id:azdevice1
+INFO 2023-02-27 18:59:40,861 {function name : fetch_device Line no : 31} Device Fetched Successfully:{'additional_properties': {}, 'device_id': 'azdevice1', 'generation_id': '638130806848835406', 'etag': 'NDY4OTQ2NzMz', 'connection_state': 'Disconnected', 'status': 'enabled', 'status_reason': None, 'connection_state_updated_time': datetime.datetime(2023, 2, 27, 13, 29, 40, 902300, tzinfo=<isodate.tzinfo.Utc object at 0x0000017316442640>), 'status_updated_time': datetime.datetime(1, 1, 1, 0, 0, tzinfo=<isodate.tzinfo.Utc object at 0x0000017316442640>), 'last_activity_time': datetime.datetime(2023, 2, 27, 13, 3, 2, 276360, tzinfo=<isodate.tzinfo.Utc object at 0x0000017316442640>), 'cloud_to_device_message_count': 0, 'authentication': <azure.iot.hub.protocol.models.authentication_mechanism_py3.AuthenticationMechanism object at 0x000001731782E700>, 'capabilities': <azure.iot.hub.protocol.models.device_capabilities_py3.DeviceCapabilities object at 0x000001731782E490>, 'device_scope': None, 'parent_scopes': None}
+ERROR 2023-02-28 11:20:22,771 {function name : func_wrapper Line no : 27} Error at 'TwinProperties' object has no attribute '_dict_'
+INFO 2023-02-28 11:53:49,939 {function name : fetch_device_twin Line no : 13} Device Twin fetched successfully for azdevice1: {'additional_properties': {}, 'desired': {'temperature': '20', '$metadata': {'$lastUpdated': '2023-02-27T09:08:07.9132434Z', '$lastUpdatedVersion': 3, 'temperature': {'$lastUpdated': '2023-02-27T09:08:07.9132434Z', '$lastUpdatedVersion': 3}}, '$version': 3}, 'reported': {'$metadata': {'$lastUpdated': '2023-02-27T07:44:44.8835406Z'}, '$version': 1}}
+INFO 2023-02-28 11:54:48,932 {function name : fetch_device_twin Line no : 13} Device Twin fetched successfully for azdevice1: {'additional_properties': {}, 'desired': {'temperature': '20', '$metadata': {'$lastUpdated': '2023-02-27T09:08:07.9132434Z', '$lastUpdatedVersion': 3, 'temperature': {'$lastUpdated': '2023-02-27T09:08:07.9132434Z', '$lastUpdatedVersion': 3}}, '$version': 3}, 'reported': {'$metadata': {'$lastUpdated': '2023-02-27T07:44:44.8835406Z'}, '$version': 1}}
+INFO 2023-02-28 12:05:00,940 {function name : update_reported_properties Line no : 37} Reported properties updated successfully.
+INFO 2023-02-28 12:05:07,306 {function name : fetch_device_twin Line no : 13} Device Twin fetched successfully for azdevice1: {'additional_properties': {}, 'desired': {'temperature': '20', 'pressure': '55', '$metadata': {'$lastUpdated': '2023-02-28T06:35:01.2085369Z', '$lastUpdatedVersion': 5, 'temperature': {'$lastUpdated': '2023-02-28T06:35:01.2085369Z', '$lastUpdatedVersion': 5}, 'pressure': {'$lastUpdated': '2023-02-28T06:35:01.2085369Z', '$lastUpdatedVersion': 5}}, '$version': 5}, 'reported': {'$metadata': {'$lastUpdated': '2023-02-27T07:44:44.8835406Z'}, '$version': 1}}
+INFO 2023-02-28 12:08:13,593 {function name : update_reported_properties Line no : 37} Reported properties updated successfully.
+INFO 2023-02-28 12:08:13,965 {function name : fetch_device_twin Line no : 13} Device Twin fetched successfully for azdevice1: {'additional_properties': {}, 'desired': {'temperature': '20', 'pressure': '55', '$metadata': {'$lastUpdated': '2023-02-28T06:38:13.7849165Z', '$lastUpdatedVersion': 7, 'temperature': {'$lastUpdated': '2023-02-28T06:38:13.7849165Z', '$lastUpdatedVersion': 7}, 'pressure': {'$lastUpdated': '2023-02-28T06:38:13.7849165Z', '$lastUpdatedVersion': 7}}, '$version': 7}, 'reported': {'$metadata': {'$lastUpdated': '2023-02-27T07:44:44.8835406Z'}, '$version': 1}}
+INFO 2023-02-28 12:11:44,709 {function name : update_reported_properties Line no : 37} Reported properties updated successfully.
+INFO 2023-02-28 12:12:29,355 {function name : fetch_device_twin Line no : 13} Device Twin fetched successfully for azdevice1: {'additional_properties': {}, 'desired': {'temperature': '20', 'pressure': '55', '$metadata': {'$lastUpdated': '2023-02-28T06:41:24.9787474Z', '$lastUpdatedVersion': 9, 'temperature': {'$lastUpdated': '2023-02-28T06:41:24.9787474Z', '$lastUpdatedVersion': 9}, 'pressure': {'$lastUpdated': '2023-02-28T06:41:24.9787474Z', '$lastUpdatedVersion': 9}}, '$version': 9}, 'reported': {'$metadata': {'$lastUpdated': '2023-02-27T07:44:44.8835406Z'}, '$version': 1}}
+ERROR 2023-02-28 12:22:20,337 {function name : func_wrapper Line no : 27} Error at __init__() takes 1 positional argument but 2 were given
+ERROR 2023-02-28 12:24:14,213 {function name : func_wrapper Line no : 27} Error at Parameter 'reported' must be of type 'dict[str, object]'
+ERROR 2023-02-28 12:25:57,813 {function name : func_wrapper Line no : 27} Error at Parameter 'reported' must be of type 'dict[str, object]'
+ERROR 2023-02-28 12:26:54,370 {function name : func_wrapper Line no : 27} Error at Parameter 'reported' must be of type 'dict[str, object]'
+ERROR 2023-02-28 12:27:34,834 {function name : func_wrapper Line no : 27} Error at Parameter 'reported' must be of type 'dict[str, object]'
+ERROR 2023-02-28 12:30:50,274 {function name : func_wrapper Line no : 27} Error at Object of type Twin is not JSON serializable
+ERROR 2023-02-28 12:41:49,047 {function name : func_wrapper Line no : 24} Error at Operation returned an invalid status code 'Bad Request'
+ERROR 2023-02-28 12:44:38,336 {function name : func_wrapper Line no : 24} Error at Operation returned an invalid status code 'Bad Request'
+ERROR 2023-02-28 12:56:39,100 {function name : func_wrapper Line no : 27} Error at Client is not connected to IoTHub
+INFO 2023-02-28 13:31:25,656 {function name : fetch_device Line no : 21} Calling fetch device function with device_id:1234
+ERROR 2023-02-28 13:31:32,176 {function name : func_wrapper Line no : 21} Device not found
+INFO 2023-02-28 13:36:39,235 {function name : create_device Line no : 12} device created
+INFO 2023-02-28 13:36:46,752 {function name : fetch_device_twin Line no : 16} Device Twin fetched successfully for azdevice1: {'additional_properties': {}, 'desired': {'temperature': '55', '$metadata': {'$lastUpdated': '2023-02-28T08:06:45.3141613Z', '$lastUpdatedVersion': 2, 'temperature': {'$lastUpdated': '2023-02-28T08:06:45.3141613Z', '$lastUpdatedVersion': 2}}, '$version': 2}, 'reported': {'temperature': '60', '$metadata': {'$lastUpdated': '2023-02-28T08:06:46.3183255Z', 'temperature': {'$lastUpdated': '2023-02-28T08:06:46.3183255Z'}}, '$version': 2}}
+ERROR 2023-02-28 15:12:55,804 {function name : func_wrapper Line no : 27} Error at 'reported'
+INFO 2023-02-28 15:13:54,639 {function name : fetch_device_twin Line no : 14} Device Twin fetched successfully for azdevice1: {'additional_properties': {}, 'desired': {'temperature': '60', '$metadata': {'$lastUpdated': '2023-02-28T09:43:46.6225502Z', '$lastUpdatedVersion': 4, 'temperature': {'$lastUpdated': '2023-02-28T09:43:46.6225502Z', '$lastUpdatedVersion': 4}}, '$version': 4}, 'reported': {'temperature': '60', '$metadata': {'$lastUpdated': '2023-02-28T08:06:46.3183255Z', 'temperature': {'$lastUpdated': '2023-02-28T08:06:46.3183255Z'}}, '$version': 2}}
+INFO 2023-02-28 15:14:48,134 {function name : fetch_device_twin Line no : 14} Device Twin fetched successfully for azdevice1: {'additional_properties': {}, 'desired': {'temperature': '61', '$metadata': {'$lastUpdated': '2023-02-28T09:44:38.9513494Z', '$lastUpdatedVersion': 5, 'temperature': {'$lastUpdated': '2023-02-28T09:44:38.9513494Z', '$lastUpdatedVersion': 5}}, '$version': 5}, 'reported': {'temperature': '60', '$metadata': {'$lastUpdated': '2023-02-28T08:06:46.3183255Z', 'temperature': {'$lastUpdated': '2023-02-28T08:06:46.3183255Z'}}, '$version': 2}}
+INFO 2023-02-28 15:16:34,088 {function name : fetch_device_twin Line no : 14} Device Twin fetched successfully for azdevice1: {'additional_properties': {}, 'desired': {'temperature': '61', '$metadata': {'$lastUpdated': '2023-02-28T09:46:19.3340323Z', '$lastUpdatedVersion': 6, 'temperature': {'$lastUpdated': '2023-02-28T09:46:19.3340323Z', '$lastUpdatedVersion': 6}}, '$version': 6}, 'reported': {'temperature': '60', '$metadata': {'$lastUpdated': '2023-02-28T08:06:46.3183255Z', 'temperature': {'$lastUpdated': '2023-02-28T08:06:46.3183255Z'}}, '$version': 2}}
+INFO 2023-02-28 16:20:23,351 {function name : update_twin Line no : 41} Update device twin called
+INFO 2023-02-28 16:20:33,971 {function name : fetch_device_twin Line no : 14} Device Twin fetched successfully for azdevice1: {'additional_properties': {}, 'desired': {'temperature': '61', '$metadata': {'$lastUpdated': '2023-02-28T09:46:19.3340323Z', '$lastUpdatedVersion': 6, 'temperature': {'$lastUpdated': '2023-02-28T09:46:19.3340323Z', '$lastUpdatedVersion': 6}}, '$version': 6}, 'reported': {'temperature': '60', '$metadata': {'$lastUpdated': '2023-02-28T08:06:46.3183255Z', 'temperature': {'$lastUpdated': '2023-02-28T08:06:46.3183255Z'}}, '$version': 2}}
+INFO 2023-02-28 16:24:25,971 {function name : send_message Line no : 46} Send Message from device called
+INFO 2023-02-28 16:25:01,773 {function name : send_message Line no : 53} Message with payload {
+    "temperature_@_2023-02-28-16:24:58": 46,
+    "humidity_@_2023-02-28-16:24:58": 16
+} sent Successfully to IoT Hub.
+INFO 2023-02-28 16:25:32,550 {function name : send_message Line no : 53} Message with payload {
+    "temperature_@_2023-02-28-16:25:32": 54,
+    "humidity_@_2023-02-28-16:25:32": 66
+} sent Successfully to IoT Hub.
+INFO 2023-02-28 16:25:52,660 {function name : send_message Line no : 53} Message with payload {
+    "temperature_@_2023-02-28-16:25:52": 77,
+    "humidity_@_2023-02-28-16:25:52": 15
+} sent Successfully to IoT Hub.
+INFO 2023-02-28 16:26:12,770 {function name : send_message Line no : 53} Message with payload {
+    "temperature_@_2023-02-28-16:26:12": 83,
+    "humidity_@_2023-02-28-16:26:12": 78
+} sent Successfully to IoT Hub.
+INFO 2023-02-28 16:26:32,858 {function name : send_message Line no : 53} Message with payload {
+    "temperature_@_2023-02-28-16:26:32": 42,
+    "humidity_@_2023-02-28-16:26:32": 55
+} sent Successfully to IoT Hub.
+INFO 2023-02-28 16:28:51,120 {function name : send_message Line no : 46} Send Message from device called
+INFO 2023-02-28 16:28:52,113 {function name : send_message Line no : 53} Message with payload {
+    "temperature_@_2023-02-28-16:28:51": 79,
+    "humidity_@_2023-02-28-16:28:51": 51
+} sent Successfully to IoT Hub.
+INFO 2023-02-28 16:29:02,235 {function name : send_message Line no : 53} Message with payload {
+    "temperature_@_2023-02-28-16:29:02": 48,
+    "humidity_@_2023-02-28-16:29:02": 15
+} sent Successfully to IoT Hub.
+INFO 2023-02-28 16:29:12,566 {function name : send_message Line no : 53} Message with payload {
+    "temperature_@_2023-02-28-16:29:12": 51,
+    "humidity_@_2023-02-28-16:29:12": 64
+} sent Successfully to IoT Hub.
+INFO 2023-02-28 16:29:22,835 {function name : send_message Line no : 53} Message with payload {
+    "temperature_@_2023-02-28-16:29:22": 75,
+    "humidity_@_2023-02-28-16:29:22": 33
+} sent Successfully to IoT Hub.
+INFO 2023-02-28 16:29:32,951 {function name : send_message Line no : 53} Message with payload {
+    "temperature_@_2023-02-28-16:29:32": 69,
+    "humidity_@_2023-02-28-16:29:32": 58
+} sent Successfully to IoT Hub.
